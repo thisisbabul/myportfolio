@@ -10,4 +10,9 @@ public class HomeController {
     public String home() {
         return "Welcome to spring boot project";
     }
+
+    @GetMapping("/contact")
+    public String contact() {
+        return "contact page is under construction";
+    }
 }

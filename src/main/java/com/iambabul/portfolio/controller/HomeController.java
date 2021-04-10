@@ -13,6 +13,11 @@ public class HomeController {
 
     @GetMapping("/contact")
     public String contact() {
-        return "contact page is under construction";
+        return "Contact page is under construction";
+    }
+
+    @GetMapping("/about")
+    public String about() {
+        return "About page is under construction";
     }
 }
